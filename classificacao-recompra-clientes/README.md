@@ -17,41 +17,40 @@ Por se tratar de um problema sem rótulo explícito, a utilização de um algori
 A base de dados utilizada no projeto contém informações transacionais, comportamentais e demográficas dos clientes, permitindo uma análise abrangente do comportamento de compra e da satisfação do consumidor.
 O dataset é composto pelas seguintes variáveis:
 
-id_do_pedido: identificador único de cada pedido
+id_do_pedido: **identificador único de cada pedido**
+data: **data em que o pedido foi realizado**
 
-data: data em que o pedido foi realizado
+id_do_cliente: **identificador único do cliente**
 
-id_do_cliente: identificador único do cliente
+idade: **idade do cliente**
 
-idade: idade do cliente
+sexo: **gênero do cliente**
 
-sexo: gênero do cliente
+cidade: **cidade onde o cliente reside**
 
-cidade: cidade onde o cliente reside
+categoria_do_produto: **categoria do produto adquirido**
 
-categoria_do_produto: categoria do produto adquirido
+preco_unitario: **preço unitário do produto**
 
-preco_unitario: preço unitário do produto
+quantidade: **quantidade de itens comprados no pedido**
 
-quantidade: quantidade de itens comprados no pedido
+valor_do_desconto: **valor aplicado de desconto**
 
-valor_do_desconto: valor aplicado de desconto
+valor_total: **valor total do pedido após descontos**
 
-valor_total: valor total do pedido após descontos
+metodo_de_pagamento: **forma de pagamento utilizada**
 
-metodo_de_pagamento: forma de pagamento utilizada
+tipo_dispositivo: **dispositivo usado para realizar a compra (ex: mobile, desktop)**
 
-tipo_dispositivo: dispositivo usado para realizar a compra (ex: mobile, desktop)
+duracao_da_sessao_em_minutos: **tempo de permanência do cliente no site**
 
-duracao_da_sessao_em_minutos: tempo de permanência do cliente no site
+paginas_visualizadas: **número de páginas acessadas durante a sessão**
 
-paginas_visualizadas: número de páginas acessadas durante a sessão
+cliente_recorrente: **indica se o cliente já realizou compras anteriores**
 
-cliente_recorrente: indica se o cliente já realizou compras anteriores
+tempo_de_entrega:**tempo de entrega do pedido (em dias)**
 
-tempo_de_entrega: tempo de entrega do pedido (em dias)
-
-avaliacao_do_cliente: nota atribuída pelo cliente após a compra
+avaliacao_do_cliente: **nota atribuída pelo cliente após a compra**
 
 Essa diversidade de variáveis possibilitou a exploração de múltiplas dimensões do comportamento do cliente,
 sendo essencial para a identificação de padrões relevantes e para a aplicação de técnicas de aprendizado não supervisionado voltadas à segmentação e análise de propensão à recompra.
