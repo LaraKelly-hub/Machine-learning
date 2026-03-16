@@ -18,6 +18,7 @@ A base de dados utilizada no projeto contém informações transacionais, compor
 O dataset é composto pelas seguintes variáveis:
 
 id_do_pedido: **identificador único de cada pedido**
+
 data: **data em que o pedido foi realizado**
 
 id_do_cliente: **identificador único do cliente**
@@ -123,11 +124,14 @@ O modelo conseguiu segmentar os clientes em dois grupos distintos, representando
 Por meio do coeficiente de silhueta, foi possível avaliar a qualidade da clusterização, obtendo um valor de 0.32. 
 Esse resultado é considerado razoável, levando em conta a complexidade da base de dados e a diversidade das variáveis envolvidas no processo.
 
-🛠️ Ferramentas e Bibliotecas Utilizadas
+🛠️ Ferramentas:
 
 Google Colab
 
 Python
+
+
+Bibliotecas Utilizadas:
 
 Pandas
 
